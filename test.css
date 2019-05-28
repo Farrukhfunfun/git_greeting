@@ -148,25 +148,11 @@ article
 
 .mainTeam
 {
-	width: 45%;
-	margin-right: 2%;
+	width: 92%;
+	margin-right: 4%;
 	margin-left: 4%;
 	margin-top: 1em;
 	background-color: #F3F3F3;
-}
-
-.substitude
-{
-	width: 45%;
-	margin-right: 4%;
-	margin-top: 1em;
-	background-color: #F3F3F3;
-}
-
-.substitude tr:hover
-{
-	background: linear-gradient(#89F689 ,#006900);
-	cursor: pointer;
 }
 
 .mainTeam tr:hover
