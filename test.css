@@ -1,0 +1,325 @@
+*
+{
+	font-family: Arial;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #FFF;
+	overflow-x: scroll!important;
+	min-width: 1000px!important;
+}
+
+.wrapper
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	margin-top: 2em;
+	min-height: 700px;
+}
+
+header
+{
+	position: relative;
+	align-content: middle;
+	width: 100%;
+}
+
+header img
+{
+	width: 100%;
+}
+
+#left
+{
+	margin-top: 1em; 
+	width: 17%;
+	margin: 0 2%;
+	background-color: #F3F3F3;
+}
+
+#right
+{
+	margin-top: 1em; 
+	width: 17%;
+	margin: 0 2%;
+	background-color: #F3F3F3;
+}
+
+article
+{
+	position: relative;
+	width: 58%;
+}
+
+.stats
+{
+	display: flex;
+}
+
+.sections
+{
+	position: relative;
+	width: 58%;
+	right: 21%;
+	left: 21%;
+	height: 3em;
+	display: flex;
+}
+
+.sections div
+{
+	background: white;
+	border-radius: 4px;
+	padding-top: 0.5em;
+	text-align: center;
+	width: 20%;
+}
+
+.sections div:hover
+{
+	border-bottom: 4px solid green;
+	cursor: pointer;
+}
+
+#Calendar 
+{
+	display: none;
+	position: relative;
+	background-color: white;
+	max-height: 1350px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+#comingMatches
+{
+	display: none;
+	position: relative;
+	background-color: white;
+	width: 100%;
+}
+
+#MyTeam
+{
+	display: none;
+	position: relative;
+	background-color: white;
+	width: 100%;
+}
+
+.TeamManage
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+}
+
+.TeamManage div
+{
+	background: white;
+	border-radius: 4px;
+	padding-top: 0.5em;
+	text-align: center;
+	width: 33.3333%;
+}
+
+.TeamManage div:hover
+{
+	border-bottom: 4px solid green;
+	cursor: pointer;
+}
+
+.changes
+{
+	display: flex;
+}
+
+.changes th
+{
+	padding: 0.5em;
+	text-align: left;
+}
+
+.mainTeam
+{
+	width: 45%;
+	margin-right: 2%;
+	margin-left: 4%;
+	margin-top: 1em;
+	background-color: #F3F3F3;
+}
+
+.substitude
+{
+	width: 45%;
+	margin-right: 4%;
+	margin-top: 1em;
+	background-color: #F3F3F3;
+}
+
+.substitude tr:hover
+{
+	background: linear-gradient(#89F689 ,#006900);
+	cursor: pointer;
+}
+
+.mainTeam tr:hover
+{
+	background: linear-gradient(#89F689 ,#006900);
+	cursor: pointer;
+}
+
+#Registration
+{
+	display: none;
+	position: relative;
+	background-color: white;
+	width: 100%;
+}
+
+.regSect
+{
+	display: flex;
+}
+
+.regSect div
+{
+	background-color: #F3F3F3;
+	border-radius: 4px;
+	padding: 1em;
+	text-align: center;
+	width: 50%;
+	height: 100%;
+}
+
+.regSect div:hover
+{
+	border-bottom: 4px solid green;
+	cursor: pointer;
+}
+
+.reg
+{
+	display: none;
+}
+
+.thisWeek
+{
+	font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+	width: 100%;
+}
+
+.thisWeek th
+{
+	border-top: 1px solid #F3F3F3;
+	padding: 1em;
+}
+
+.sat
+{
+	background-color: yellow;
+}
+
+.sun
+{
+	background-color: red;
+}
+
+.del
+{
+	background-color: gray;
+}
+
+#Main th
+{
+	padding: 0.5em;
+	text-align: left;
+}
+
+video
+{
+	position: relative;
+	width: 100%;
+}
+
+.tTable
+{
+	display: flex;
+}
+
+.TournT
+{
+	width: 55%;
+	margin-top: 1em;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-collapse: collapse;
+}
+
+#Main tr:hover
+{
+	border-bottom: 3px solid yellow;
+	cursor: pointer;
+}
+
+#UEFA
+{
+	background-color: #e2e2e2;
+}
+
+#champ
+{
+	background-color: #cfcfcf;
+}
+
+#halfUEFA
+{
+	background-color: #f0f0f0;
+}
+
+#outsiders
+{
+	background-color: #FFE3D7;
+}
+
+.players
+{
+	font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-weight: normal;
+	width: 39%;
+	margin-right: 2%;
+	margin-top: 1em;
+	border-collapse: collapse;
+}
+
+.Team
+{
+	width: 46%;
+	margin-top: 2em;
+	margin-left: 3%;
+	border-collapse: collapse;
+}
+
+.footballer
+{
+	width: 45%;
+	margin-top: 2em;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-collapse: collapse;
+}
+
+footer
+{
+	width: 100%;
+	height: 100px;
+	background-color: #120180;
+}
+
+/*#5582DB*/
